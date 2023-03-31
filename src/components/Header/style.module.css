@@ -1,0 +1,45 @@
+.wrapper{
+    max-width: 100%;
+    background-color: black;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 70px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+.link {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: inherit;
+    justify-content: center;
+}
+.active{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffb701;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    width: 37px;
+    height: 35px;
+    margin: 0 10px;
+}
+.board{
+    width: 38px;
+    height: 38px;
+    margin: 0 10px;
+}

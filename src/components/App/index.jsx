@@ -1,4 +1,3 @@
-
 import { Route, Routes } from 'react-router-dom';
 import AddPostPage from '../../pages/AddPostPage';
 import AllPostsPage from '../../pages/AllPostsPage';

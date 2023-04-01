@@ -9,12 +9,13 @@ export default function Header() {
     <div className={s.container}>
         <div className={s.wrapper}>
             <NavLink className = {({isActive}) => isActive ? s.active : s.link } to="/">
-                <img className={s.board} src={board} alt="" /> Board
-              </NavLink>
+              <img className={s.board} src={board} alt="board-icon" /> 
+              Board
+            </NavLink>
             <p className={s.header}>Thoughts</p>
             <NavLink className = {({isActive}) => isActive ? s.active : s.link } to="/add">
               Add Post
-              <img className={s.add} src={add} alt="" />
+              <img className={s.add} src={add} alt="add-icon" />
             </NavLink>
         </div>
     </div>

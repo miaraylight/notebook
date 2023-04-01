@@ -14,11 +14,11 @@ export default function PostItem({id, title, section, image}) {
       <div >
         <img className={s.image} src={process.env.PUBLIC_URL + image} alt="background" />
       </div>
-        <div className={s.head}>
-          <p>{section}</p>
-          <h3>{title}</h3>
-          <Link className={s.read} to={`/post/${id}`}>Read more</Link>
-        </div>
+      <div className={s.head}>
+        <p>{section}</p>
+        <h3>{title}</h3>
+        <Link className={s.read} to={`/post/${id}`}>Read more</Link>
+      </div>
     </div>
   )
 }

@@ -1,39 +1,39 @@
-const images = [
-    {food : [
-      '/images/food.jpg',
-      '/images/food2.jpg',
-      '/images/food3.jpg']},
-    {other : [
-      '/images/other1.jpg',
-      '/images/other2.jpg',
-      '/images/other3.jpg',
-      '/images/other4.jpg',
-      '/images/other5.jpg',
-    ]},
-    {sport : [
-      '/images/sport1.jpg',
-      '/images/sport2.jpg',
-      '/images/sport3.jpg',
-    ]},
-    {study : [
-      '/images/study1.jpg',
-      '/images/study2.jpg',
-      '/images/study3.jpg',
-    ]},
-    {travel : [
-      '/images/travel1.jpg',
-      '/images/travel2.jpg',
-      '/images/travel3.jpg',
-    ]},
-    {zen : [
-      '/images/zen1.jpg',
-      '/images/zen2.jpg',
-      '/images/zen3.jpg',
-    ]}
-  ]
-
 const DELETE_POST = 'DELETE_POST';
 const ADD_POST = 'ADD_POST';
+
+const images = [
+  {food : [
+    '/images/food.jpg',
+    '/images/food2.jpg',
+    '/images/food3.jpg']},
+  {other : [
+    '/images/other1.jpg',
+    '/images/other2.jpg',
+    '/images/other3.jpg',
+    '/images/other4.jpg',
+    '/images/other5.jpg',
+  ]},
+  {sport : [
+    '/images/sport1.jpg',
+    '/images/sport2.jpg',
+    '/images/sport3.jpg',
+  ]},
+  {study : [
+    '/images/study1.jpg',
+    '/images/study2.jpg',
+    '/images/study3.jpg',
+  ]},
+  {travel : [
+    '/images/travel1.jpg',
+    '/images/travel2.jpg',
+    '/images/travel3.jpg',
+  ]},
+  {zen : [
+    '/images/zen1.jpg',
+    '/images/zen2.jpg',
+    '/images/zen3.jpg',
+  ]}
+]
 
 const insteadState = [
   {

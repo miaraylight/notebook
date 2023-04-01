@@ -7,12 +7,10 @@ export default function AllPostsPage() {
     const post = useSelector(state => state)
 
   return (
-    <div className={s.container}>
-        
-        {
-          post.map((item) => <div key={item.id} className={s.card}><PostItem   {...item}/> </div>)
-        }
-        
+    <div className={s.container}>  
+      {
+        post.map((item) => <div key={item.id} className={s.card}><PostItem   {...item}/> </div>)
+      }  
     </div>
   )
 }

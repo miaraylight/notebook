@@ -9,4 +9,4 @@
 > 
 > and with loading data into *localStorage*.
 
-###[link to GH Pages](http://miaraylight.github.io/notebook)
+### [Link to GH Pages](http://miaraylight.github.io/notebook)

@@ -51,6 +51,11 @@
 }
 
 .head h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: horizontal;
     color: #ffffff;
     font-size: 30px;
     text-align: center;

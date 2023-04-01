@@ -10,7 +10,7 @@ export default function AllPostsPage() {
     <div className={s.container}>
         
         {
-          post.map((item) => <div className={s.card}><PostItem  key={item.id} {...item}/> </div>)
+          post.map((item) => <div key={item.id} className={s.card}><PostItem   {...item}/> </div>)
         }
         
     </div>

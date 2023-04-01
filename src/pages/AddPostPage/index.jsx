@@ -17,6 +17,7 @@ export default function AddPostPage() {
             section: section.value,
             username: username.value,
             descr: descr.value,
+            date: Date(),
         }
         dispatch(addPostAction(post))
         title.value = ""
@@ -29,22 +30,24 @@ export default function AddPostPage() {
   return (
     <div className={s.container}>
         <div className={s.wrapper}>
+            <p className={s.head}>Keep it noted</p>
             <form className={s.form} onSubmit={onSubmit}>
                 <div className={s.content}>
                     <div className={s.info}>
                         <input type="text" name="title" placeholder='Title' required/>
                         
-                        <select name="section" id="section">
+                        <select name="section" id="section" placeholder='Choose section'>
                             <option value="Travel">Travel</option>
                             <option value="Sport">Sport</option>
                             <option value="Study">Study</option>
                             <option value="Food">Food</option>
                             <option value="Zen">Zen</option>
+                            <option value="Other">Other</option>
                         </select>
                         <input type="text" name="username" placeholder='Username'/>
                     </div>
                     <div className={s.text}>
-                        <textarea id="decsr" name="descr" rows="13" cols="35" placeholder='Write' required></textarea>
+                        <textarea id="decsr" name="descr" rows="13" cols="35" placeholder='Text here...' required></textarea>
                     </div>
                 </div>
                 <button className={s.addButton}>Add Post</button>
